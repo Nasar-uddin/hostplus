@@ -1,0 +1,16 @@
+.active-link{
+    color: $purple;
+    font-weight: bold;
+}
+.primary-overlay{
+    background: rgba($purple,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.tabs .indicator{
+    background: $purple;
+}

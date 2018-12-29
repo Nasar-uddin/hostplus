@@ -1,0 +1,127 @@
+.main-header {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .main-header {
+    min-height: 500px;
+  }
+}
+
+.main-header .showcase {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-header .showcase {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.main-header .showcase h1 {
+  margin-top: 1rem;
+}
+
+.main-header-inner {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .main-header-inner {
+    min-height: 300px;
+  }
+}
+
+.main-header-inner .showcase {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-header-inner .showcase {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.main-header-inner .showcase h1 {
+  margin-top: 1rem;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.primary-overlay {
+  background: rgba(216, 71, 241, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tabs .indicator {
+  background: #d847f1;
+}
+
+.section-about .col .responsive-img {
+  margin-top: 2rem;
+}
+
+.section-developer {
+  position: relative;
+  min-height: 300px;
+  background-image: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-top: #333 solid 2px;
+  border-bottom: #333 solid 2px;
+}
+
+.section-podcast {
+  position: relative;
+  min-height: 180px;
+  background-image: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-top: #333 solid 3px;
+  border-bottom: #333 solid 3px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(216, 71, 241, 0.7);
+}
+
+.section-podcast .primary-overlay .btn-large {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-podcast {
+    min-height: 310px;
+  }
+}
+
+.carousel-item p {
+  font-size: 20px !important;
+}
+
+.carousel-item p em {
+  font-weight: 500;
+}
+/*# sourceMappingURL=styles.css.map */
